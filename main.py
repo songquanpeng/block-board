@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QApplication, QWidget
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowIcon(QIcon(":/icon.jpg"))
+        self.setWindowIcon(QIcon(":/icon.ico"))
         self.setWindowFlags(Qt.CustomizeWindowHint | Qt.WindowStaysOnTopHint)
         initial_width, initial_height = 960, 120
         window_width, window_height = 1920, 1080

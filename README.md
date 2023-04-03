@@ -24,5 +24,5 @@
 ```bash
 pip install -r requirements.txt
 pyrcc5 -o resource_rc.py resource.qrc 
-pyinstaller --noconsole -F ./main.py --icon icon.jpg -n board.exe
+pyinstaller --noconsole -F ./main.py --icon icon.ico -n board.exe
 ```
