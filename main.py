@@ -49,6 +49,11 @@ class MainWindow(QWidget):
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
             self.close()
+        elif event.key() == Qt.Key_Space:
+            if self.windowOpacity() > 0.5:
+                self.setWindowOpacity(0.1)
+            else:
+                self.setWindowOpacity(1.0)
 
 
 if __name__ == "__main__":
