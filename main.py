@@ -39,9 +39,9 @@ class MainWindow(QWidget):
         # change opacity with mouse wheel
         opacity = self.windowOpacity()
         if event.angleDelta().y() > 0:
-            opacity += 0.02
+            opacity += 0.05
         else:
-            opacity -= 0.02
+            opacity -= 0.05
         opacity = max(0.1, min(opacity, 1.0))  # limit opacity to 10-100%
         self.setWindowOpacity(opacity)
         event.accept()
