@@ -15,6 +15,9 @@
 
 可在 [Release 页面](https://github.com/songquanpeng/block-board/releases)下载最新版本（Windows，macOS，Linux）。
 
+## 演示
+![演示](./demo.gif)
+
 ## 功能
 - 永远置顶；
 - 使用鼠标滑轮设置透明度；
